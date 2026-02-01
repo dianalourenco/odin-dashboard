@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <div id="top-header">
+                <div class="search-bar">
+                    <img id="search-icon" src="img/search-interface-symbol.png" alt="search icon">
+                    <input type="search" class="search" readonly>
+                </div>
+                <div class="profile">
+                    <img id="notification-icon" src="img/notification.png" alt="notification">
+                    <img id="profile-pic" src="img/basketball-player.png">
+                    <p id="profile-name">Diana Lourenço</p>
+                </div>  
+            </div>
+
+            <div id="low-header">
+                <div class="profile-big">
+                    <img class="profile-pic" src="img/basketball-player.png">
+                    <div id="intro-name">
+                        <p class="text-hello">Hi there,</p>
+                        <p class="text-name">Diana Lourenço (@diana)</p>
+                    </div>
+                </div>
+
+                <div class="header-btn">
+                    <button class="new-btn">New</button>
+                    <button class="upload-btn">Upload</button>
+                    <button class="share-btn">Share</button>
+                </div>
+            </div>
+        </div>
+
+            <div class="sidebar">
+                <div class="sidebar-title">
+                    <img class="dashboard-icon" src="img/nba.png">
+                    <p class="sdb-title">Dashboard</p>
+                </div>
+
+                <div class="sidebar-icons">
+                    <div class="home">
+                        <img class="home-icon" src="img/home.png">
+                        <p class="home-text">Home</p>
+                    </div>
+                    <div class="profile">
+                        <img class="profile-icon" src="img/user.png">
+                        <p class="profile-text">Profile</p>
+                    </div>
+                    <div class="messages">
+                        <img class="messages-icon" src="img/messenger.png">
+                        <p class="messenges-text">Messages</p>
+                    </div>
+                    <div class="tasks">
+                        <img class="tasks-icon" src="img/checklist.png">
+                        <p class="tasks-text">Tasks</p>
+                    </div>
+                    <div class="communities">
+                        <img class="communities-icon" src="img/community.png">
+                        <p class="communities-text">Communities</p>
+                    </div>
+                    <div class="sidebar-bottom"></div>
+                    <div class="settings">
+                        <img class="settings-icon" src="img/settings.png">
+                        <p class="settings-text">Settings</p>
+                    </div>
+                    <div class="support">
+                        <img class="support-icon" src="img/customer-support.png">
+                        <p class="support-text">Support</p>
+                    </div>
+                    <div class="privacy">
+                        <img class="privacy-icon" src="img/insurance.png">
+                        <p class="privacy-text">Privacy</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <p class="text">Advanced Stats</p>
+                <div class="main-block">
+                    <div class="block">
+                        <p class="block-title" id="sga-title">Shail Gilgeous-Alexander (OKC)</p>
+                        <p class="block-text" id="sga-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="block">
+                        <p class="block-title" id="jb-title">Jaylen Brown (BOS)</p>
+                        <p class="block-text" id="jb-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="block">
+                        <p class="block-title" id="dm-title">Denovan Mitchell (CLE)</p>
+                        <p class="block-text" id="sga-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="block">
+                        <p class="block-title" id="tm-title">Tyrese Maxey (PHI)</p>
+                        <p class="block-text" id="tm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="block">
+                        <p class="block-title" id="ld-title">Luka Dončić (LAL)</p>
+                        <p class="block-text" id="ld-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="block">
+                        <p class="block-title" id="ae-title">Anthony Edwards (MIN)</p>
+                        <p class="block-text" id="ae-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                
+                <div class="announcements">
+                    <p class="text" id="announcements-text">Announcements</p>
+                    <div class="announcements-block">
+                        <div class="1st-announcment">
+                            <p class="announcement-title">Site Maintencance</p>
+                            <p class="announcement-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ultricies libero, at aliquet dolor.</p>
+                        </div>
+                        <div class="2st-announcment">
+                            <p class="announcement-title">Community Share Day</p>
+                            <p class="announcement-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ultricies libero, at aliquet dolor.</p>
+                        </div>
+                        <div class="1st-announcment">
+                            <p class="announcement-title">Updated Privacy Policy</p>
+                            <p class="announcement-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ultricies libero, at aliquet dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="trending">
+                    <p class="text" id="trending-text">Trending</p>
+                    <div class="profiles">
+                        <div class="profile1">
+                            <img src="img/basketball.png" class="profile-pic">
+                            <p class="username">@alphawave</p>
+                        </div>
+                        <div class="profile2">
+                            <img src="img/basketball (1).png" class="profile-pic">
+                            <p class="username">@novapulse</p>
+                        </div>
+                        <div class="profile3">
+                            <img src="img/basketball-player (1).png" class="profile-pic">
+                            <p class="username">@pixelpilot</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
